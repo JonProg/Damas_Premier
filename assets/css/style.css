@@ -9,7 +9,6 @@
     --small-weight:400;
 }
 
-
 *:where(:not(html, iframe, canvas, img, svg, video, audio, input, select):not(svg *, symbol *)) {
     all: unset;
     display: revert;
@@ -98,7 +97,6 @@ html{
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
-
 
 nav a{
     background-color: rgb(255, 0, 136);
