@@ -6,7 +6,7 @@
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
     'Helvetica Neue', sans-serif;
 
-    --small-weight:400;
+    --small-weight:300;
 }
 
 *:where(:not(html, iframe, canvas, img, svg, video, audio, input, select):not(svg *, symbol *)) {
@@ -102,12 +102,30 @@ body{
     background-color: #101010;
 }
 
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    margin: 1.3rem 0rem;
+    border: solid;
+    border-color: #dfdfdf3a;
+    border-width: 0.1rem;
+    border-radius: 0.8rem;
+}
+
+nav ul{
+    display: flex;
+}
+
 nav a{
-    background-color: rgb(255, 0, 136);
     font-family: var(--font-small);
     font-weight: var(--small-weight);
-    font-size: 1.6rem;
-    padding: 1.6rem;
+    color: #eeeeee;
+    font-size: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
     display: block;
 }
 
@@ -117,18 +135,6 @@ nav a{
 
 nav a:hover{
     background-color: chartreuse;
-}
-
-nav{
-    background-color: chartreuse;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-nav ul{
-    margin-top: 3.2rem;
-    display: flex;
 }
 
 
