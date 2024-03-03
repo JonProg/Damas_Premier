@@ -98,6 +98,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: #101010;
+}
+
 nav a{
     background-color: rgb(255, 0, 136);
     font-family: var(--font-small);
@@ -131,3 +135,13 @@ nav ul{
 /*div {
   background-image: linear-gradient(45deg, #ff0000, #0000ff);
 }*/
+
+img {
+    opacity: 0.8;
+    filter: brightness(85%) contrast(90%) grayscale(100%);
+    transition: all 0.4s ease-in;
+}
+
+img:hover {
+    filter: grayscale(0%);
+}
