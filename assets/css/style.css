@@ -137,6 +137,8 @@ nav ul{
 }*/
 
 img {
+    width: 402px;
+    height: 339px;
     opacity: 0.8;
     filter: brightness(85%) contrast(90%) grayscale(100%);
     transition: all 0.4s ease-in;
