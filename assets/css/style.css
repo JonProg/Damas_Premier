@@ -105,6 +105,20 @@ body{
     background-color: #101010;
 }
 
+::-webkit-scrollbar {
+    width: 0.3rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #eeeeee;
+    border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #eeeeee93;
+    border-radius: 1rem;
+}
+
 header{
     display: flex;
     justify-content: space-around;
@@ -180,7 +194,7 @@ nav a:hover{
     filter:brightness(0) saturate(100%) invert(70%) sepia(52%) saturate(556%) hue-rotate(19deg) brightness(98%) contrast(89%);
 }
 
-#lp_text{
+#lp_elements{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -234,7 +248,7 @@ nav a:hover{
     transition: all 0.4s ease-in;
 }
 
-#btn_aprender:hover{
+#btn_aprender:hover{          
     color:#060606;
     font-size: 1.7rem;
     letter-spacing: 0.03rem;
@@ -245,7 +259,9 @@ nav a:hover{
 }
 
 #tabuleiro{
-    
+    margin-top: 7rem;
+    width: 53rem;
+    height: 40rem;
 }
 
 
