@@ -161,8 +161,8 @@ nav a:hover{
     width: 402px;
     height: 339px;
     opacity: 0.8;
-    filter: brightness(85%) contrast(90%) grayscale(100%);
-    transition: all 3s ease-in;
+    filter: grayscale(100%) brightness(85%) contrast(90%);
+    transition: filter 1s ease;
 }
 
 .image-curse:hover{
