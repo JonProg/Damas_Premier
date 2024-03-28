@@ -186,17 +186,27 @@ nav a:hover{
     font-weight: var(--huge-weight);
     color: #eeeeec;
     line-height: 1.2;
-    font-size: 5rem;
+    font-size: 4.5rem;
     text-align: center;
 }
 
 #subtitle_lp{
     font-family: var(--font);
     font-weight: var(--medium-weight);
-    color: #eeeeecb9;
-    line-height: 2.4;
+    color: #eeeeecdc;
+    line-height: 2;
     font-size: 1.8rem;
     text-align:center;
+}
+
+.gradient_text{
+    background: rgb(249,252,21);
+    background: -moz-linear-gradient(48deg, rgba(249,252,21,1) 0%, rgba(253,253,218,1) 100%);
+    background: -webkit-linear-gradient(48deg, rgba(249,252,21,1) 0%, rgba(253,253,218,1) 100%);
+    background: linear-gradient(48deg, rgba(249,252,21,1) 0%, rgba(253,253,218,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f9fc15",endColorstr="#fdfdda",GradientType=1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
   
 
