@@ -166,3 +166,8 @@ nav a:hover{
 .image-curse:hover {
     filter: grayscale(0%);
 }
+
+.icon-share{
+    width: 2.5rem;
+    height: 2.5rem;
+}
