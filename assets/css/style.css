@@ -104,7 +104,7 @@ body{
 
 header{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -167,7 +167,11 @@ nav a:hover{
     filter: grayscale(0%);
 }
 
+
 .icon-share{
-    width: 2.5rem;
-    height: 2.5rem;
+    margin: 0rem 1rem;
+    width: 2.3rem;
+    height: 2.3rem;
 }
+
+
