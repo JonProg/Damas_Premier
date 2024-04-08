@@ -170,8 +170,12 @@ nav a:hover{
 
 .icon-share{
     margin: 0rem 1rem;
-    width: 2.3rem;
-    height: 2.3rem;
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.icon-share:hover{
+    filter: brightness(0) saturate(100%) invert(37%) sepia(75%) saturate(440%) hue-rotate(17deg) brightness(99%) contrast(93%);
 }
 
 
