@@ -7,6 +7,7 @@
     'Helvetica Neue', sans-serif;
 
     --huge-weight:600;
+    --btn-weight:500;
     --medium-weight:400;
     --small-weight:300;
 }
@@ -208,5 +209,15 @@ nav a:hover{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-  
+
+#btn_aprender{
+    display: block;
+    width: 14rem;
+    font-family: var(--font);
+    font-weight: var(--btn-weight);
+    color: #ffff;
+    text-align: center;
+    font-size: 1.4rem;
+    background-color: rgb(191, 191, 191);
+}
 
