@@ -182,12 +182,18 @@ nav a:hover{
     filter:brightness(0) saturate(100%) invert(70%) sepia(52%) saturate(556%) hue-rotate(19deg) brightness(98%) contrast(89%);
 }
 
+#lp_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #title_lp{
     font-family: var(--font);
     font-weight: var(--huge-weight);
     color: #eeeeec;
     line-height: 1.2;
-    font-size: 4.5rem;
+    font-size: 5.1rem;
     text-align: center;
 }
 
@@ -196,7 +202,7 @@ nav a:hover{
     font-weight: var(--medium-weight);
     color: #eeeeecdc;
     line-height: 2;
-    font-size: 1.8rem;
+    font-size: 2rem;
     text-align:center;
 }
 
@@ -212,7 +218,10 @@ nav a:hover{
 
 #btn_aprender{
     display: block;
-    width: 14rem;
+    border: solid;
+    border-radius: 0.9rem;
+    padding: 0.6rem 0rem;
+    width: 20rem;
     font-family: var(--font);
     font-weight: var(--btn-weight);
     color: #ffff;
