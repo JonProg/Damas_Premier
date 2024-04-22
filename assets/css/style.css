@@ -231,7 +231,7 @@ nav a:hover{
     background: linear-gradient(48deg, rgba(13,13,13,1) 0%, rgba(39,39,39,1) 100%) padding-box,
     linear-gradient(to top, rgba(66,57,27,1), rgba(249,251,60,1)) border-box;
     border-radius: 1rem;
-    transition: all 0.3s ease-in;
+    transition: all 0.4s ease-in;
 }
 
 #btn_aprender:hover{
@@ -241,7 +241,7 @@ nav a:hover{
     font-family: var(--font);
     font-weight: 700;
     background: linear-gradient( 90deg, rgb(170,134,7) 0%, rgb(190,162,8) 11%, rgb(191,180,9) 22%, rgb(194,179,12) 34%, rgb(100,93,12) 66%, rgb(245,226,65) 100%) padding-box,
-    linear-gradient(to top, rgba(66,57,27,1), rgba(249,251,60,1)) border-box;;
+    linear-gradient(to top, rgba(66,57,27,1), rgba(249,251,60,1)) border-box;
 }
 
 
