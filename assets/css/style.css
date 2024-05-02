@@ -104,9 +104,6 @@ html{
 body{
     background-color: #101010;
 }
-#test{
-    opacity: 0.05;
-}
 
 ::-webkit-scrollbar {
     width: 0.3rem;
@@ -267,5 +264,13 @@ nav a:hover{
     height: 40rem;
 }
 
+#bkg1{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    object-fit: fil;
+    opacity: 0.05;
+    z-index: -1;
+}
 
   
