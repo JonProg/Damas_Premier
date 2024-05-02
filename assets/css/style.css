@@ -104,6 +104,9 @@ html{
 body{
     background-color: #101010;
 }
+#test{
+    opacity: 0.05;
+}
 
 ::-webkit-scrollbar {
     width: 0.3rem;
