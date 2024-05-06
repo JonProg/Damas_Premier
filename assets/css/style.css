@@ -273,11 +273,16 @@ nav a:hover{
     z-index: -1;
 }
 
-#players{
+#box-players{
+    position: absolute;
+    height: 87vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    position: absolute;
+    z-index: -1;
+}
+
+#img-players{
     width: 100vw;
     opacity: 0.7;
  
