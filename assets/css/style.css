@@ -268,14 +268,14 @@ nav a:hover{
     width: 100vw;
     height: 100vh;
     position: absolute;
-    object-fit: fill;
+    object-fit: cover;
     opacity: 0.05;
     z-index: -1;
 }
 
 #box-players{
     position: absolute;
-    height: 87vh;
+    height: 88vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -284,7 +284,7 @@ nav a:hover{
 
 #img-players{
     width: 100vw;
-    opacity: 0.7;
+    opacity: 0.6;
  
 }
 
