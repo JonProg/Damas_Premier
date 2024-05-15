@@ -182,7 +182,6 @@ nav a:hover{
     filter: grayscale(0%);
 }
 
-
 .icon-share{
     margin: 0rem 1rem;
     width: 2.4rem;
@@ -229,7 +228,7 @@ nav a:hover{
     -webkit-text-fill-color: transparent;
 }
 
-#btn_aprender{
+#btn_lading{
     margin: 2.8rem 0rem;
     padding: 0.6rem 0rem;
     display: block;
@@ -264,7 +263,7 @@ nav a:hover{
     height: 40rem;
 }
 
-#bkg1{
+#bg-lading{
     width: 100vw;
     height: 100vh;
     position: absolute;
@@ -286,5 +285,7 @@ nav a:hover{
     width: 100vw;
     opacity: 0.6;
 }
+
+
 
   
