@@ -102,6 +102,7 @@ html{
 }
 
 body{
+    background-image: url(../imgs/background.png);
     background-color: #101010;
 }
 
