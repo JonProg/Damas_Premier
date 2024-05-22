@@ -102,7 +102,9 @@ html{
 }
 
 body{
-    background-image: url(../imgs/background.png);
+    background-image: url(../imgs/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #101010;
 }
 
@@ -274,24 +276,10 @@ nav a:hover{
     z-index: -1;
 }
 
-#box-players{
-    position: absolute;
-    height: 88vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    z-index: -1;
-}
-
 .bg-gray{
 
 }
 
-
-#img-players{
-    width: 100vw;
-    opacity: 0.6;
-}
 
 
 
