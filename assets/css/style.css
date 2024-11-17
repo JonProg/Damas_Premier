@@ -137,8 +137,8 @@ header{
 nav{
     margin: 1.3rem 0rem;
     border: solid;
-    border-color: #dfdfdf3a;
-    border-width: 0.1rem;
+    border-color: #dfdfdf54;
+    border-width: 0.15rem;
     border-radius: 0.8rem;
 }
 
@@ -157,7 +157,7 @@ nav a{
 }
 
 nav a:hover{
-    background-color: #f6f6f61d;
+    background-color: #f6f6f62d;
 }
 
 #sobre {
@@ -264,11 +264,14 @@ nav a:hover{
 }
 
 #tabuleiro{
-    margin-top: 7rem;
-    width: 54rem;
-    height: 40rem;
+    margin-top: 5rem;
+    width: 52rem;
+    height: 38rem;
+    z-index: 2;
 }
 
 #players{
     position: absolute;
+    margin-top: 6.5rem;
+    z-index: 1;
 }
