@@ -106,6 +106,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #101010;
+    font-family: var(--font);
 }
 
 ::-webkit-scrollbar {
@@ -263,21 +264,33 @@ nav a:hover{
     linear-gradient(to top, rgba(66,57,27,1), rgba(249,251,60,1)) border-box;
 }
 
-#tabuleiro{
-    margin-top: 5rem;
+#tabuleiro {
+    margin-top: 4rem;
     width: 52rem;
     height: 38rem;
+    display: block;
     z-index: 2;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 #players{
     position: absolute;
-    margin-top: 6.5rem;
+    margin-top: 6.9rem;
     z-index: 1;
 }
 
+
 .container-info{
-    width: 57%;
-    height: 27rem;
+    width: 65%;
+    margin: 0 auto;
+    position: relative;
+    height: auto;
+    font-size: 1.7rem;
+    font-weight: 400;
+    padding: 3.7rem;
     background-color: #eeeeec;
+    border-radius: 2rem;
+    position: relative;
+    transform: translateY(-11%);
 }
