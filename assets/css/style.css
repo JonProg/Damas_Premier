@@ -170,10 +170,6 @@ nav a:hover{
 }
 
 
-/*div {
-  background-image: linear-gradient(45deg, #ff0000, #0000ff);
-}*/
-
 .image-curse{
     width: 402px;
     height: 339px;
@@ -306,4 +302,21 @@ nav a:hover{
 #logo-image{
     width: 34.6rem;
     height: 28.2rem;
+}
+
+.teacher-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 3rem;
+    height: 37.6rem; /* Ajuste conforme necessário */
+}
+
+.teacher-container .container{
+    background-color: #f5f5f5;
+    height: 100%;
+    width: 35rem;
+    border-radius: 1rem;
 }
