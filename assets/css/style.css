@@ -171,25 +171,6 @@ nav a:hover{
 }
 
 
-.image-curse{
-    width: 37rem;
-    height: 35rem;
-    opacity: 0.8;
-    filter: grayscale(100%) brightness(85%) contrast(90%);
-    transition: filter 1s ease;
-}
-
-.image-curse:hover{
-    filter: grayscale(0%);
-}
-
-#curses{
-    display: flex;
-    justify-content: center;
-    gap: 4rem;
-}
-
-
 .icon-share{
     margin: 0rem 1rem;
     width: 2.4rem;
@@ -390,5 +371,31 @@ nav a:hover{
     height: 25rem;
     width: 20rem;
     translate: 0rem 3.3rem;
+}
+
+.image-curse{
+    width: 37rem;
+    height: 32rem;
+    object-fit: cover;
+    opacity: 0.8;
+    border-radius: 0.7rem 0.7rem 0rem 0rem;
+    filter: grayscale(100%) brightness(97%) contrast(125%);
+    transition: filter 1s ease;
+}
+
+.image-curse:hover{
+    filter: grayscale(0%) brightness(92%) contrast(113%);
+}
+
+#curses{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.container-curse{
+    height: 47rem;
+    background-color: #f3f3f3;
+    border-radius: 0.7rem;
 }
 
