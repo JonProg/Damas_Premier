@@ -375,7 +375,7 @@ nav a:hover{
 
 .image-curse{
     width: 37rem;
-    height: 32rem;
+    height: 30.5rem;
     object-fit: cover;
     opacity: 0.8;
     border-radius: 0.7rem 0.7rem 0rem 0rem;
@@ -390,7 +390,7 @@ nav a:hover{
 #curses{
     display: flex;
     justify-content: center;
-    gap: 4rem;
+    gap: 3.5rem;
 }
 
 .container-curse{
