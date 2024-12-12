@@ -399,3 +399,21 @@ nav a:hover{
     border-radius: 0.7rem;
 }
 
+.title-curses{
+    font-family: var(--font);
+    font-weight: 500;
+    color: #eeeeec;
+    line-height: 1.2;
+    font-size: 4.7rem;
+    text-align: center;
+}
+
+.subtitle-curses{
+    font-family: var(--font);
+    font-weight: 300;
+    color: #eeeeecdc;
+    line-height: 2;
+    font-size: 2.2rem;
+    text-align:center;
+}
+
