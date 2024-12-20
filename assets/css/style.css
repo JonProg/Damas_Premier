@@ -1,6 +1,7 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
 
 :root{
     --font:'Poppins', system-ui, -apple-system, BlinkMacSystemFont,
@@ -299,8 +300,9 @@ nav a:hover{
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 5rem;
-    height: 38rem; 
+    gap: 2rem;
+    margin: 6rem 5rem;
+    height: 40rem; 
 }
 
 #teacher-ana{
@@ -343,7 +345,7 @@ nav a:hover{
     font-size: 1.45rem;
     font-weight: 400;
     width: auto;
-    height: 12rem;
+    height: 15.3rem;
     border-radius: 0 0 0.8rem 0.8rem;
     z-index: 0
 }
@@ -351,8 +353,8 @@ nav a:hover{
 .name-teacher{
     display: flex;
     align-items: center;
-    font-size: 2.6rem;
-    font-family: "Libre Baskerville", serif;
+    font-size: 4.5rem;
+    font-family: "Bonheur Royale", serif;
     font-weight: 400;
     font-style: normal;
     margin-bottom: 0.5rem;
@@ -374,7 +376,7 @@ nav a:hover{
 }
 
 .image-curse{
-    width: 37rem;
+    width: 100%;
     height: 30.5rem;
     object-fit: cover;
     opacity: 0.8;
@@ -387,17 +389,41 @@ nav a:hover{
     filter: grayscale(0%) brightness(92%) contrast(113%);
 }
 
-#curses{
+.curses{
     display: flex;
-    justify-content: center;
-    gap: 3.5rem;
+    overflow: hidden;
+    margin-bottom: 10rem;
+    &:hover .slider{
+        animation-play-state: paused;
+    }
 }
+
+.slider{
+    display: flex;
+    gap: 5rem;
+    padding-right: 5rem;
+    white-space: nowrap;
+    will-change: transform;
+    animation: slide 20s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
 
 .container-curse{
     height: 47rem;
     background-color: #f3f3f3;
     border-radius: 0.7rem;
+    width: 39rem;
 }
+
 
 .title-curses{
     font-family: var(--font);
@@ -406,7 +432,7 @@ nav a:hover{
     line-height: 1.2;
     font-size: 4.7rem;
     text-align: center;
-    margin-top: 6.7rem;
+    margin-top: 9rem;
 }
 
 .subtitle-curses{
@@ -416,10 +442,27 @@ nav a:hover{
     line-height: 2;
     font-size: 2.17rem;
     text-align:center;
-    margin-bottom: 6.7rem;
+    margin-bottom: 9rem;
 }
 
 .color-title{
     color: rgb(249,252,21);;
+}
+
+.text-curse{
+    padding: 2.25rem;
+}
+
+.text-curse h1{
+    font-size: 1.9rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.text-curse p{
+    color: #060606;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    size: 1rem;
 }
 
