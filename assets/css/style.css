@@ -57,6 +57,11 @@ meter {
     appearance: revert;
 }
 
+@font-face {
+    font-family: 'Roygen';
+    src: url('/assets/fonts/roygen.ttf') format('truetype');
+}
+
 
 :where(pre) {
     all: revert;
@@ -302,7 +307,7 @@ nav a:hover{
     flex-wrap: wrap;
     gap: 2rem;
     margin: 6rem 5rem;
-    height: 40rem; 
+    height: 38rem; 
 }
 
 #teacher-ana{
@@ -353,8 +358,8 @@ nav a:hover{
 .name-teacher{
     display: flex;
     align-items: center;
-    font-size: 4.5rem;
-    font-family: "Bonheur Royale", serif;
+    font-size: 3.1rem;
+    font-family: "Roygen";
     font-weight: 400;
     font-style: normal;
     margin-bottom: 0.5rem;
@@ -437,8 +442,8 @@ nav a:hover{
 
 .subtitle-curses{
     font-family: var(--font);
-    font-weight: 300;
-    color: #eeeeecdc;
+    font-weight: 400;
+    color: #fffffff1;
     line-height: 2;
     font-size: 2.17rem;
     text-align:center;
