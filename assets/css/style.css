@@ -475,16 +475,16 @@ nav a:hover{
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 57.5rem;
+    height: 59rem;
     gap: 5rem;
-    margin-bottom: 9rem;
+    margin-bottom: 20rem;
 }
 
 .container-plan{
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 100%;
+    height: 97%;
     width: 26%;
     background-color: #f0f0f0;
     border-radius: 1.2rem;
@@ -494,18 +494,24 @@ nav a:hover{
     font-size: 1.7rem;
     font-weight: 500;
     padding: 0.8rem 5.5rem;
-    border-radius: 0.7rem;
-    background-color: #1f1f1f;
+    border-radius: 0.6rem;
+    background: linear-gradient(48deg, rgba(13,13,13,1) 0%, rgba(39,39,39,1) 100%) padding-box,
+    linear-gradient(90deg, rgb(48,48,48) 0%, rgb(28,28,28) 100%) border-box;
     color: #f0f0f0;
-    border: solid 0.3rem #606060;
+    border: solid 0.4rem #606060;
     margin: 1rem 0;
+}
+
+.second{
+    margin-top: 10rem;
 }
 
 .price{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #060606;
+    background: -webkit-linear-gradient( -131deg, rgb(28,28,28) 0%, rgb(69,69,69) 100%);
+    border: solid 0.02rem #eeeeec;
     color: #eeeeec;
     font-size: 6.5rem;
     font-family: "Roygen";
