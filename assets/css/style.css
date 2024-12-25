@@ -225,6 +225,18 @@ nav a:hover{
     -webkit-text-fill-color: transparent;
 }
 
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 #btn_lading{
     margin: 2.8rem 0rem;
     padding: 0.6rem 0rem;
@@ -255,6 +267,12 @@ nav a:hover{
     linear-gradient(to top, rgba(66,57,27,1), rgba(249,251,60,1)) border-box;
 }
 
+@keyframes positon-tab {
+    0% {
+        transform: translateY(11rem);
+    }
+}
+
 #tabuleiro {
     margin-top: 4rem;
     width: 52rem;
@@ -263,6 +281,7 @@ nav a:hover{
     z-index: 2;
     margin-left: auto;
     margin-right: auto; 
+    animation: positon-tab 1.5s linear;
 }
 
 #players{
@@ -471,6 +490,15 @@ nav a:hover{
     size: 1rem;
 }
 
+@keyframes animate-plans {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 .plans{
     display: flex;
     justify-content: center;
@@ -478,6 +506,9 @@ nav a:hover{
     height: 59rem;
     gap: 5rem;
     margin-bottom: 20rem;
+    animation: animate-plans 1.5s ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 45%;
 }
 
 .container-plan{
@@ -541,5 +572,30 @@ nav a:hover{
     border-style: solid;
     border-width: 0 0 0 medium;
     padding-left: 1rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imgs/footer-image.png);
+    background-repeat: no-repeat;
+    background-size: 100% 30rem;
+    background-position: 50% 0rem;
+    margin-top: 2rem;
+    height: 30rem;
+    width: 100%;
+}
+
+footer .icon-share{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+footer #logo{
+    width: 30rem;
+    height: 10rem;
+    margin-bottom: 2rem;
 }
 
