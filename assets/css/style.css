@@ -531,6 +531,8 @@ nav a:hover{
     color: #f0f0f0;
     border: solid 0.4rem #606060;
     margin: 1rem 0;
+    cursor: pointer;
+    transition: all 0.4s ease-in;
 }
 
 .second{
@@ -597,5 +599,10 @@ footer #logo{
     width: 30rem;
     height: 10rem;
     margin-bottom: 2rem;
+}
+
+.btn-get:hover{
+    scale: 1.05;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
