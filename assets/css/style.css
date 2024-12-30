@@ -111,6 +111,7 @@ html{
 body{
     background-image: url(../imgs/background.webp);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     background-color: #101010;
     font-family: var(--font);
@@ -274,14 +275,13 @@ nav a:hover{
 }
 
 #tabuleiro {
-    margin-top: 4rem;
     width: 52rem;
     height: 38rem;
     display: block;
     z-index: 2;
-    margin-left: auto;
-    margin-right: auto; 
+    margin:4rem auto 0 auto; 
     animation: positon-tab 1.5s linear;
+    transition: all 0.4s ease-in;
 }
 
 #players{
@@ -299,16 +299,17 @@ nav a:hover{
 .container-info{
     display: flex;
     justify-content: flex-end;
+    justify-self: center;
     align-content: center;
     align-items: center;
     width: 64%;
-    margin: 0 auto;
-    position: relative;
+    margin: 0 5rem;
     height: 26rem;
     font-size: 1.65rem;
     font-weight: 400;
     background-color: #eeeeec;
     border-radius: 1.4rem;
+    width: 81rem;
     position: relative;
     transform: translateY(-11%);
 }
@@ -322,11 +323,12 @@ nav a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin: 6rem 5rem;
-    height: 38rem; 
+    flex-direction: row;
+    gap: 4rem;
+    margin: 10rem 3.7rem;
+    padding: 0rem 1rem;
+    max-width: 100vw;
+    transition: all 0.4s ease-in-out;
 }
 
 #teacher-ana{
@@ -604,5 +606,53 @@ footer #logo{
 .btn-get:hover{
     scale: 1.05;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+
+@media screen and (max-width: 1042px){
+    .container-info{
+        scale: 0.95;
+    }
+}
+
+
+@media screen and (max-width: 962px){
+    .container-info{
+        display: none;
+    }
+    #title_lp{
+        font-size: 4.8rem;
+    }
+    #subtitle_lp{
+        font-size: 1.8rem;
+    }
+    #btn_lading{
+        width: 22.5rem;
+    }
+    #tabuleiro {
+        width: 40rem;
+        height: 30rem;
+    }
+
+}
+
+@media screen and (max-width: 946px){
+    .teacher-container{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 830px){
+    .teacher-container{
+        scale: 1.2;
+    }
+}
+
+@media screen and (max-width: 745px){
+    #players{
+        display: none;
+    }
 }
 
