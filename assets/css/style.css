@@ -334,8 +334,6 @@ nav a:hover{
 .teacher-container .container{
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    height: 100%;
     width: 35rem;
     border-radius: 1rem;
 }
@@ -370,7 +368,7 @@ nav a:hover{
     font-size: 1.45rem;
     font-weight: 400;
     width: auto;
-    height: 15.3rem;
+    height: 13rem;
     border-radius: 0 0 0.8rem 0.8rem;
     z-index: 0
 }
@@ -467,7 +465,7 @@ nav a:hover{
     line-height: 2;
     font-size: 2.17rem;
     text-align:center;
-    margin-bottom: 9rem;
+    margin-bottom: 8rem;
 }
 
 .color-title{
@@ -632,8 +630,30 @@ footer #logo{
         width: 22.5rem;
         font-size: 1.5rem;
     }
+    .teacher-container{
+        margin-top: -2rem;
+    }
 
 }
+
+@media screen and (max-width: 786px){
+    .teacher-container{
+        flex-direction: column;
+        width: 100%;
+        height: 40rem;
+        gap: 2rem;
+        overflow-x: auto;
+        padding-bottom: 2.5rem;
+        scroll-snap-type: x mandatory;
+        margin-bottom: 9rem;
+    }
+
+    .teacher-container::-webkit-scrollbar {
+        height: 4px; /* Define a altura da barra de rolagem horizontal */
+        border-radius: 10px; /* Bordas arredondadas */
+    }
+}
+
 
 @media screen and (max-width: 823px){
     #tabuleiro{
@@ -642,9 +662,6 @@ footer #logo{
     }
     #players{
         display: none;
-    }
-    .teacher-container{
-        margin-top: -1rem;
     }
 }
 
@@ -662,6 +679,8 @@ footer #logo{
 @media screen and (max-width: 1031px){
     .plans{
         flex-wrap: wrap;
+        height: auto;
+        margin-bottom: 9rem;
     }
     .second{
         margin: 0;
@@ -672,7 +691,6 @@ footer #logo{
 @media screen and (max-width: 788px){
     .plans{
         flex-direction: column;
-        justify-self: flex-end;
         width: 100%;
         height: 63rem;
         gap: 2.5rem;
@@ -695,7 +713,3 @@ footer #logo{
         margin: 2rem 0;
     }
 }
-
-
-
-
