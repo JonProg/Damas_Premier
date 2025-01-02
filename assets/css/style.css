@@ -442,14 +442,6 @@ nav a:hover{
 }
 
 
-.container-curse{
-    height: 47rem;
-    background-color: #f3f3f3;
-    border-radius: 0.7rem;
-    width: 39rem;
-}
-
-
 .title-curses{
     font-family: var(--font);
     font-weight: 500;
@@ -474,8 +466,17 @@ nav a:hover{
     color: rgb(249,252,21);;
 }
 
+.container-curse{
+    height: 47rem;
+    background-color: #f3f3f3;
+    border-radius: 0.7rem;
+    width: 39rem;
+}
+
 .text-curse{
     padding: 2.25rem;
+    height: 100%;
+    width: 100%;
 }
 
 .text-curse h1{
@@ -488,7 +489,8 @@ nav a:hover{
     color: #060606;
     margin-top: 1rem;
     font-size: 1.4rem;
-    size: 1rem;
+    white-space: normal;
+    overflow-wrap: break-word;
 }
 
 @keyframes animate-plans {
@@ -758,17 +760,26 @@ footer #logo{
 
 
 @media screen and (max-width: 485px){
+    .slider{
+        gap: 3rem;
+    }
+
+    .container-curse{
+        height: 48rem;
+        width: 32rem;
+    }
+    
     nav{
-        scale: 0.9;
+        scale: 0.8;
         padding: 0.7rem 0.5rem;
+    }
+    #footer-logo{
+        margin: 1.6rem 0;
+        width: 26rem;
+        height: 9rem;
     }
 }
 
-@media screen and (max-width: 485px){
-    nav{
-        scale: 0.8;
-    }
-}
 
 @media screen and (max-width: 395px){
     nav{
