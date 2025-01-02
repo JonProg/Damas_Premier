@@ -716,6 +716,8 @@ footer #logo{
         overflow-x: auto;
         scroll-snap-type: x mandatory;
         margin-bottom: 9rem;
+        padding: 0 23rem;
+        -webkit-overflow-scrolling: touch;
     }
 
     .plans::-webkit-scrollbar {
