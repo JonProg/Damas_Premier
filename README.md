@@ -1,10 +1,13 @@
 <p align="center">
-<img src="https://i.postimg.cc/7h4rf4VX/damas-premeir-logo.png" width="170" height="" align="center"></img>
+<img src="https://i.postimg.cc/7h4rf4VX/damas-premeir-logo.png" width="250" height="" align="center"></img>
 <p>
 <br>
 
-[![damas-linkdin.png](https://i.postimg.cc/YSGmcX0b/damas-linkdin.png)](https://postimg.cc/wtzBLQhm)
-
+<p align="center">
+<img src="https://i.postimg.cc/YSGmcX0b/damas-linkdin.png" width="650" height="" align="center"></img>
+<p>
+<br>
+  
 ### Sobre o projeto 🗿🍷
 
 Uma landing page direcionada para jogadores de damas de todas as idades, desde iniciantes até jogadores avançados que desejam aprimorar suas habilidades no jogo. O foco será atingir pessoas interessadas em aprender sobre as estratégias, táticas e técnicas de damas.
