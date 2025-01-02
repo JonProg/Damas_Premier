@@ -105,7 +105,7 @@ meter {
 
 html{
     font-size: 62.5%;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth
 }
 
 body{
@@ -172,11 +172,11 @@ nav a:hover{
     background-color: #f6f6f62d;
 }
 
-#sobre {
+#nav-sobre {
     border-radius: 0.6rem 0rem 0rem 0.6rem;
 }
 
-#planos {
+#nav-planos {
     border-radius: 0rem 0.8rem 0.8rem 0rem;
 }
 
@@ -606,6 +606,22 @@ footer #logo{
 .btn-get:hover{
     scale: 1.05;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#sobre {
+    scroll-margin-top: 10rem; /* Ajuste o valor conforme necessário */
+}
+
+#cursos {
+    scroll-margin-top: 10rem; /* Ajuste o valor conforme necessário */
+}
+
+#planos {
+    scroll-margin-top: -1rem; /* Ajuste o valor conforme necessário */
+}
+
+#professores {
+    scroll-margin-top: 10rem; /* Ajuste o valor conforme necessário */
 }
 
 @media screen and (max-width: 1042px){
