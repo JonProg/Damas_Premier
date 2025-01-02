@@ -707,7 +707,7 @@ footer #logo{
 }
 
 
-@media screen and (max-width: 788px){
+@media screen and (max-width: 790px){
     .plans{
         flex-direction: column;
         width: 100%;
@@ -715,9 +715,8 @@ footer #logo{
         gap: 2.5rem;
         overflow-x: auto;
         scroll-snap-type: x mandatory;
+        padding: 0 2rem;
         margin-bottom: 9rem;
-        padding: 0 23rem;
-        -webkit-overflow-scrolling: touch;
     }
 
     .plans::-webkit-scrollbar {
