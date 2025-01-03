@@ -452,12 +452,12 @@ nav a:hover{
     margin-top: 9rem;
 }
 
-.subtitle-curses{
+.subtitle-curse{
     font-family: var(--font);
     font-weight: 400;
     color: #fffffff1;
     line-height: 2;
-    font-size: 2.17rem;
+    font-size: 2.1rem;
     text-align:center;
     margin-bottom: 8rem;
 }
@@ -626,15 +626,17 @@ footer #footer-logo{
     scroll-margin-top: 10rem; /* Ajuste o valor conforme necessário */
 }
 
+
 @media screen and (max-width: 1042px){
     .container-info{
         scale: 0.95;
     }
 }
 
+
 @media screen and (max-width: 962px){
     .container-info{
-        display: none;
+        scale: 0.9;
     }
     #tabuleiro{
         width: 43rem;
@@ -650,11 +652,9 @@ footer #footer-logo{
         width: 22.5rem;
         font-size: 1.5rem;
     }
-    .teacher-container{
-        margin-top: -2rem;
-    }
 
 }
+
 
 @media screen and (max-width: 786px){
     .teacher-container{
@@ -681,8 +681,21 @@ footer #footer-logo{
         width: 38rem;
         height: 27rem;
     }
+
     #players{
         display: none;
+    }
+
+    #nav-sobre{
+        display: none;
+    }
+
+    .container-info{
+        display: none;
+    }
+
+    .teacher-container{
+        margin-top: -2rem;
     }
 }
 
@@ -769,20 +782,19 @@ footer #footer-logo{
         width: 32rem;
     }
     
-    nav{
-        scale: 0.8;
-        padding: 0.7rem 0.5rem;
-    }
-    #footer-logo{
-        margin: 1.6rem 0;
-        width: 26rem;
+    footer #footer-logo{
+        width: 25.5rem;
         height: 9rem;
     }
 }
 
 
 @media screen and (max-width: 395px){
+    .subtitle-curse{
+        font-size: 1.8rem;
+        padding: 1rem;
+    }
     nav{
-        scale: 0.75;
+        scale: 0.9;
     }
 }
